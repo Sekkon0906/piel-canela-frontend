@@ -1,6 +1,6 @@
 import PrendaRepository from '../../domain/repositories/PrendaRepository.js';
 
-const BASE_URL = 'https://TU-SERVICIO.onrender.com/api'; // cambiar al desplegar
+const BASE_URL = 'https://piel-canela-backend.onrender.com/api';
 
 export default class ApiPrendaRepository extends PrendaRepository {
   async save(prenda) {

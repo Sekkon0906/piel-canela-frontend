@@ -1,6 +1,6 @@
 import CompradorRepository from '../../domain/repositories/CompradorRepository.js';
 
-const BASE_URL = 'https://TU-SERVICIO.onrender.com/api'; // cambiar al desplegar
+const BASE_URL = 'https://piel-canela-backend.onrender.com/api';
 
 export default class ApiCompradorRepository extends CompradorRepository {
   async save(comprador) {
